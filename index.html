@@ -6,13 +6,13 @@
 <title>Playdate Screen Defect: Technical Refutation of the "Impact Damage" Claim</title>
 <meta name="description" content="A documented, evidence-based refutation of Panic's claim that a Playdate screen defect was caused by impact damage. Validated against the iFixit teardown, Sharp LS027B7DH01 datasheet, and display engineering literature.">
 <meta property="og:title" content="Playdate Screen Defect: Technical Refutation of the 'Impact Damage' Claim">
-<meta property="og:description" content="Panic denied a Playdate warranty claim, calling progressive LCD failure 'impact damage.' 47 sources — from the Sharp datasheet to FBI forensic standards — show it isn't.">
+<meta property="og:description" content="Panic denied a Playdate warranty claim, calling progressive LCD failure 'impact damage.' 48 sources — from the Sharp datasheet to FBI forensic standards — show it isn't.">
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://rayhe.github.io/playdate-screen-defect/">
 <meta property="og:image" content="https://rayhe.github.io/playdate-screen-defect/images/before-shipping.jpg">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Playdate Screen Defect: Technical Refutation of the 'Impact Damage' Claim">
-<meta name="twitter:description" content="Panic denied a Playdate warranty claim, calling progressive LCD failure 'impact damage.' 47 sources show it isn't.">
+<meta name="twitter:description" content="Panic denied a Playdate warranty claim, calling progressive LCD failure 'impact damage.' 48 sources show it isn't.">
 <meta name="twitter:image" content="https://rayhe.github.io/playdate-screen-defect/images/before-shipping.jpg">
 <link rel="icon" type="image/svg+xml" href="favicon.svg">
 <style>
@@ -576,6 +576,9 @@ blockquote cite {
   <div class="evidence">
     <strong>Apple's own patent confirms the failure mechanism.</strong> Apple Patent US11604491B2 documents that when an LCD cell is bonded directly to a structural housing, "any stresses imposed on the cover glass layer can be transmitted to the LCD cell," causing "stress induced birefringence" that produces "a visible distortion in an image produced by the LCD module." Apple's patented solution is a "compliant foam adhesive configured to reduce an amount of point loads" and to "absorb and distribute local stress concentrations caused by structural loads, mismatched surfaces and differing thermal expansion rates."<sup><a href="#ref-47">[47]</a></sup> The Playdate's construction does precisely what Apple's patent identifies as the problem: it bonds the LCD directly to the polycarbonate housing with rigid adhesive, with no compliant layer to absorb CTE-driven stress. Apple patented the solution; Panic shipped the problem.
   </div>
+  <div class="evidence">
+    <strong>Samsung's patent confirms the battery-heat vector.</strong> Samsung Patent US10778820B2 (granted 2020) documents that in portable electronic devices, "display modules may be deformed due to thermal expansion and contraction of air trapped in portable electronic devices" — specifically from battery charging heat. Samsung's patented solution is an engineered air path system that vents trapped air away from the display to prevent panel deformation.<sup><a href="#ref-48">[48]</a></sup> The Playdate's compact enclosure places a 740 mAh lithium-ion battery immediately behind the display assembly with no thermal venting path. Samsung considered this failure mechanism serious enough to patent a solution; the Playdate's design includes no such mitigation.
+  </div>
 </div>
 
 <div class="mechanism-card">
@@ -876,10 +879,11 @@ blockquote cite {
     <li id="ref-45"><strong>Sony WH-1000XM5 Headphones Class Action: Manufacturing Defect Blamed on "User-Caused Damage."</strong> <a href="https://topclassactions.com/lawsuit-settlements/lawsuit-news/sony-class-action-claims-company-sells-headphones-with-defective-hinges/">Top Class Actions</a> (2025). <em>Kanter v. Sony Corporation of America</em>, Case No. 1:25-cv-09691, S.D.N.Y. Consumers allege Sony's WH-1000XM5 headphones contain a design defect causing premature hinge failure. Sony blamed "user-caused physical or accidental damage" and refused warranty repairs. Multiple consumers told the issue was "caused by user error." Filed under Magnuson-Moss Warranty Act, New York General Business Law, and Nevada Deceptive Trade Practices Act.</li>
     <li id="ref-46"><strong>Samsung Galaxy S7 Camera Glass Class Action: Manufacturing Defect Labeled "Camera Lens Abuse."</strong> <a href="https://classaction.org/media/kessler-v-samsung-electronics-america-inc.pdf">ClassAction.org (PDF)</a>. <em>Kessler v. Samsung Electronics America, Inc.</em>, Case No. 2:17-cv-00082-LA, E.D. Wis. (2017). Galaxy S7 camera lens glass spontaneously shattered during normal use; Samsung labeled every instance "Camera Lens Abuse" to deny warranty coverage. Complaint: "Rather than complying with the terms of its Limited Warranty, Samsung is blaming its customers for the spontaneously shattering glass lens cover." Dismissed via joint stipulation Oct 2019. See also: <a href="https://www.makeuseof.com/samsung-faulty-camera-glass-galaxy-s20-claims-class-action-lawsuit/">MakeUseOf</a> documenting the Galaxy S20 continuation, where a Samsung Care Ambassador identified "pressure buildup underneath the glass" as the actual cause.</li>
     <li id="ref-47"><strong>Apple Patent US11604491B2: Computer Display or Cover Glass/Cell Attachment to Frame.</strong> <a href="https://patents.google.com/patent/US11604491B2/en">Google Patents / USPTO</a> (Apple Inc., granted 2023). Apple's own patent documenting that bonding an LCD cell directly to a structural housing transmits stress to the liquid crystal layer, causing "stress induced birefringence" that produces "a visible distortion in an image produced by the LCD module." The patent prescribes a "compliant foam adhesive" to "absorb and distribute local stress concentrations caused by structural loads, mismatched surfaces and differing thermal expansion rates." This patent establishes that a major manufacturer recognized bonded LCD assemblies as inherently vulnerable to CTE-driven visible failure, and patented a solution the Playdate's design does not implement.</li>
+    <li id="ref-48"><strong>Samsung Patent US10778820B2: Electronic Device for Preventing Deformation of a Display Panel.</strong> <a href="https://patents.google.com/patent/US10778820B2/en">Google Patents / USPTO</a> (Samsung Electronics, filed 2018, granted 2020). Samsung's patent acknowledges that in portable electronic devices, "display modules may be deformed due to thermal expansion and contraction of air trapped in portable electronic devices," particularly from battery heat during charging. The patented solution is an engineered air path system connecting the chamber adjacent to the battery to other internal spaces, preventing airtight pockets of expanding hot air from pressing against and deforming the display panel. This establishes that a second major manufacturer — in addition to Apple — recognized that battery-adjacent display assemblies in compact enclosures are vulnerable to thermal deformation, and invested in patented mitigation the Playdate's design does not implement.</li>
   </ol>
 </div>
 
-<p class="updated">Last updated: August 22, 2026 (47 sources)</p>
+<p class="updated">Last updated: August 23, 2026 (48 sources)</p>
 
 </body>
 </html>
