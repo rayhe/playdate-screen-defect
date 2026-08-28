@@ -1,12 +1,12 @@
-# Playdate Screen Defect: Technical Refutation of the "Impact Damage" Claim
+# Playdate Screen Defect: Technical Analysis of "Impact Damage" Claim
 
-Panic denied a warranty claim on a Playdate with progressive screen failure, calling it "impact damage." This page presents the photographic, engineering, and documentary evidence showing that diagnosis is wrong. 64 sources.
+Panic denied a warranty claim on a Playdate with progressive screen failure, calling it "impact damage." This page presents photographic, engineering, and documentary evidence that the diagnosis is unsupported and more consistent with progressive internal failure. 65 sources.
 
 ## What This Is
 
-The Playdate's Sharp Memory LCD is permanently bonded to the front housing ([iFixit teardown](https://www.ifixit.com/Teardown/Playdate+Teardown/143811)). This construction makes the display susceptible to adhesive failure, LCD fluid migration, and delamination from thermal cycling during normal charging. Mechanisms include Sharp LCD leak, CTE mismatch thermal stress, adhesive degradation, battery swelling pressure, pixel memory corruption, bonding process latent defects, and polarizer vinegar syndrome.
+The Playdate's Sharp Memory LCD is bonded to the front housing ([iFixit teardown](https://www.ifixit.com/Teardown/Playdate+Teardown/143811)). This construction can make the display susceptible to adhesive stress, LCD fluid migration, and delamination from thermal cycling during normal charging. Possible mechanisms explored include Sharp LCD leak, CTE mismatch thermal stress, adhesive degradation, battery swelling pressure (possible contributor), pixel memory corruption (hypothesis), bonding process latent defects, and polarizer vinegar syndrome (documented pattern, not confirmed diagnosis).
 
-The defect pattern changed over time: full-screen pixel corruption evolved into a concentrated diagonal streak. Impact damage is fixed at the moment of contact. Progressive LCD failure evolves. The evidence does not support "impact damage."
+The defect pattern changed over time: full-screen pixel corruption evolved into a concentrated diagonal streak. Impact damage is typically most pronounced at the moment of contact, with secondary evolution possible; wholesale transformation from full-screen vertical artifacts to a localized diagonal streak with clearing of the rest of the screen is atypical for a single impact. Progressive LCD failure can evolve. The evidence weighs against "impact damage."
 
 ## View the Full Analysis
 
@@ -14,23 +14,26 @@ The defect pattern changed over time: full-screen pixel corruption evolved into 
 
 ## Sources
 
-64 inline citations from primary sources including:
+65 inline citations from primary sources including:
 
 - [Sharp LS027B7DH01 Datasheet](https://media.digikey.com/pdf/Data%20Sheets/Sharp%20PDFs/LS027B7DH01.pdf) (Sharp Microelectronics) — 120N surface stress minimum, 5-cycle heat shock, ±200V ESD
 - [Playdate Teardown](https://www.ifixit.com/Teardown/Playdate+Teardown/143811) (iFixit)
 - [Sharp Memory LCD Leak Recovery](https://www.hackster.io/drfailov/sharp-memory-lcd-leak-recovery-5779ff) (Hackster.io) — explicitly names Play Date console
 - [Display Manufacturing — Bonding](https://www.youtube.com/watch?v=3nFuhWB-_XE) (Sinocrystal) — latent bonding defects manifest as flickering/lines months later
 - [LCD Display Issues: Determining Fault](https://display.phoenixdisplay.com/blog/lcd-display-issues-determining-who-or-what-is-at-fault) (Phoenix Display)
-- [Corning TIP 201: Fracture Analysis](https://www.corning.com/media/worldwide/cdt/documents/Fracture%20Analysis,%20a%20Basic%20Tool%20to%20Solve%20Breakage%20Issues_February%202021.pdf) (Corning)
-- [Apple Patent US11604491B2](https://patents.google.com/patent/US11604491B2/en) + [Samsung Patent US10778820B2](https://patents.google.com/patent/US10778820B2/en) — major manufacturers patented solutions to bonded-display thermal stress
+- [Corning TIP 201: Fracture Analysis](https://www.corning.com/media/worldwide/cdt/documents/Fracture%20Analysis,%20a%20Basic%20Tool%20to%20Solve%20Breakage%20Issues_February%202021.pdf) (Corning) — cited illustratively for glass-fracture methodology; defect not established as glass fracture
+- [Apple Patent US11604491B2](https://patents.google.com/patent/US11604491B2/en) — describes compliant foam as one mitigation for bonded-display stress (not "patented the solution")
+- [Samsung Patent US10778820B2](https://patents.google.com/patent/US10778820B2/en) — describes battery-heat trapped-air deformation and air-path mitigation
 - [Glass Substrate Packaging CTE Mismatch](https://www.mdpi.com/2072-666X/16/8/944) (MDPI Micromachines 2024) — interfacial delamination from CTE mismatch
 - [ITO Thermal Aging and Cycling](https://opg.optica.org/jdt/abstract.cfm?uri=jdt-8-7-385) (Optica JDT 2020) — 900 thermal cycles, resistivity degradation
+- [Controlling Stress in Bonded Optics](https://www.intertronics.co.uk/wp-content/uploads/2017/05/Controlling-Stress-In-Bonded-Optics.pdf) (Intertronics/Dymax, 2001) — thermal stress can be large even during mild excursions; CTE mismatch can cause delamination
 - [Playdate Warranty](https://help.play.date/service/warranty/) (Panic, Inc.)
 - [Oregon Revised Statutes ORS 72.3140](https://www.oregonlegislature.gov/bills_laws/ors/ors072.html) + [ORS 646.608](https://www.oregonlegislature.gov/bills_laws/ors/ors646.html)
-- [Magnuson-Moss Warranty Act](https://www.law.cornell.edu/uscode/text/15/chapter-50) (15 U.S.C. 2301-2312) — §2304(c) burden on warrantor
+- [Magnuson-Moss Warranty Act](https://www.law.cornell.edu/uscode/text/15/chapter-50) (15 U.S.C. 2301-2312) — §2304(c) applies to "full" warranties; Panic's is "limited" so §2304(a)/(c) does not directly govern; relevant are Panic's own exclusions, ORS 72.3140, §2308 anti-disclaimer, §2310(d) fee-shifting
 
 ## Update Log
 
+- 2026-08-28 04:53 PT: Added source 65 (Intertronics/Dymax bonded-optics stress), corrected §2304(c) applicability (full vs limited), softened absolute claims (adhesive "violation," 58°C, static clock, impact "fixed," "proves"), qualified Hackster recovery, qualified FBI/Corning as illustrative not direct diagnosis, softened Apple "patented solution" rhetoric, softened battery swelling/pixel-memory/vinegar syndrome from definitive to possible/hypothesis/documented pattern, corrected EOL from "unsuitable" to supply end-of-life, softened pen-test absolutes. 65 sources.
 - 2026-08-28 04:08 PT: Added sources 63 (MDPI Micromachines glass substrate packaging CTE mismatch) and 64 (Optica JDT ITO thermal cycling 900 cycles), strengthened Mechanism 2 with peer-reviewed quantitative data, updated to 64 sources
 - 2026-08-28 03:53 PT: Added sources 61 (Tesla Model Y bonded glass stress crack) and 62 (Apple hairline crack policy change with 6-outlet corroboration), 62 sources
 - 2026-08-28 03:08 PT: Added source 60 (LCD vinegar syndrome polarizer adhesive chemical degradation), 7th mechanism card, 60 sources
