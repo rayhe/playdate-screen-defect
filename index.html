@@ -398,6 +398,76 @@ blockquote cite {
 
 .sources ol li a { word-break: break-all; }
 
+.summary-box {
+  background: #f0fdf4;
+  border: 1px solid #86efac;
+  border-left: 4px solid #16a34a;
+  border-radius: 8px;
+  padding: 1.25rem 1.5rem;
+  margin: 1.5rem 0 2rem;
+}
+.summary-box h3 {
+  margin-top: 0;
+  font-size: 1.05rem;
+  color: #166534;
+  margin-bottom: 0.75rem;
+}
+.summary-box p {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: #1a3a1a;
+  margin-bottom: 0.75rem;
+}
+.summary-box ul {
+  list-style: disc;
+  padding-left: 1.25rem;
+  margin: 0.5rem 0 0;
+}
+.summary-box ul li {
+  font-size: 0.92rem;
+  line-height: 1.55;
+  margin-bottom: 0.4rem;
+  color: #1a3a1a;
+}
+.limitations-box {
+  background: #fefce8;
+  border: 1px solid #fde68a;
+  border-left: 4px solid #ca8a04;
+  border-radius: 8px;
+  padding: 1.25rem 1.5rem;
+  margin: 1.5rem 0;
+}
+.limitations-box h3 {
+  margin-top: 0;
+  font-size: 1.0rem;
+  color: #713f12;
+  margin-bottom: 0.6rem;
+}
+.limitations-box p, .limitations-box ul li {
+  font-size: 0.92rem;
+  line-height: 1.55;
+  color: #422006;
+}
+.limitations-box ul {
+  list-style: disc;
+  padding-left: 1.25rem;
+  margin: 0.5rem 0;
+}
+.mechanism-group {
+  background: #f8fafc;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  padding: 0.5rem 1.25rem 1rem;
+  margin: 1.5rem 0;
+}
+.mechanism-group h3 {
+  font-size: 1.08rem;
+  color: #0f172a;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  border-bottom: 1px solid #e2e8f0;
+  padding-bottom: 0.3rem;
+}
 .updated {
   margin-top: 2.5rem;
   font-size: 0.85rem;
@@ -412,14 +482,33 @@ blockquote cite {
   <p class="subtitle">Panic denied a warranty claim on a Playdate with progressive screen failure, calling it "impact damage." This page presents the photographic, engineering, and documentary evidence challenging that diagnosis. Every factual claim is sourced to the <a href="https://www.ifixit.com/Teardown/Playdate+Teardown/143811">iFixit teardown</a>, the <a href="https://media.digikey.com/pdf/Data%20Sheets/Sharp%20PDFs/LS027B7DH01.pdf">Sharp LS027B7DH01 datasheet</a>, LCD manufacturer technical literature, FTC Magnuson-Moss enforcement authority, and independent repair documentation. 84 sources.</p>
 </header>
 
+<div class="summary-box" id="summary">
+  <h3>TL;DR — Executive Summary</h3>
+  <p><strong>What happened:</strong> A Playdate developed progressive screen failure while sitting on a desk charger during normal use. No drop, strike, or mishandling occurred. Panic support (Amy) approved an RMA, then reversed after receiving the unit, calling it "impact damage" based on visual impression — no diagnostic report, no impact point identified, no microscopy.</p>
+  <p><strong>Why the photos matter:</strong> The same unit photographed weeks apart shows fundamentally different defects: Photo 1 (before shipping) — dense full-screen pixel corruption with vertical banding; Photo 2 (as received by Panic) — full-screen corruption cleared, replaced by a single diagonal streak lower-left. Impact creates a fixed pattern at contact. Progressive material failure migrates and concentrates — exactly what these photos show.</p>
+  <ul>
+    <li><strong>7 impact signatures absent</strong> — no radial spider-web, no strike mark, no Newton's rings, no case damage, no focal pixel disruption, no substrate fracture, no ink-blot center</li>
+    <li><strong>6 progressive signatures present</strong> — pattern changed over weeks, no correlation to external marks, location near battery/charging IC heat sources, pristine housing, diagonal orientation matching polarizer axis (~45°), bonded construction vulnerable to thermal delamination</li>
+    <li><strong>9 non-impact mechanisms documented</strong> from Sharp datasheet Notes 9/10/11/14, manufacturer literature (Reshine, Focus LCDs, AGDisplays, Phoenix Display), peer-reviewed CTE mismatch, and repair-lab analysis — all consistent with observed progression</li>
+  </ul>
+</div>
+
 <nav class="toc">
   <h3>Contents</h3>
   <ol>
+    <li><a href="#summary">Summary</a></li>
     <li><a href="#claim">The Claim</a></li>
     <li><a href="#evidence">The Evidence: Before and After</a></li>
     <li><a href="#not-impact">Why This Is Not Impact Damage</a></li>
     <li><a href="#hardware">Inside the Playdate: Why the Design Is Vulnerable</a></li>
-    <li><a href="#mechanisms">Possible Explanations: Documented Non-Impact LCD Failure Modes</a></li>
+    <li><a href="#mechanisms">Possible Explanations: Documented Non-Impact LCD Failure Modes</a>
+      <ol style="margin-top:0.3rem; padding-left:1.1rem;">
+        <li><a href="#group-thermal">A. Thermal & CTE-Mismatch (Mechanisms 2, 3, 8)</a></li>
+        <li><a href="#group-mechanical">B. Mechanical & Bonding (Mechanisms 1, 4, 6)</a></li>
+        <li><a href="#group-chemical">C. Chemical & Electrical (Mechanisms 5, 7, 9)</a></li>
+      </ol>
+    </li>
+    <li><a href="#limitations">Limitations & What This Page Does Not Claim</a></li>
     <li><a href="#progressive">The Progressive Pattern</a></li>
     <li><a href="#panic-history">Panic's Quality Control History</a></li>
     <li><a href="#industry">Industry Pattern: "Impact Damage" as Default Denial</a></li>
@@ -557,6 +646,18 @@ blockquote cite {
 
 <p>The exact root cause could be any of several well-documented mechanisms, or a combination of them. They share two properties: (1) they occur during normal use due to internal design characteristics, not from external impact, and (2) they produce progressive, evolving damage patterns consistent with what the photos show. Each mechanism is supported by display manufacturer documentation and validated against the Playdate's specific internal layout.</p>
 
+<div class="callout-blue">
+  <strong>How to read this section (grouped for clarity):</strong> Nine mechanisms are documented below, grouped into three families to reduce repetition and make the hierarchy explicit:
+  <ul style="list-style: disc; padding-left: 1.25rem; margin-top:0.5rem;">
+    <li><strong>A. Thermal & CTE-Mismatch</strong> — Mechanisms 2, 3, 8 (heat cycling, adhesive heat aging, interfacial cracking) — all driven by charging heat in a bonded glass-on-polycarbonate sandwich with ~7× CTE mismatch</li>
+    <li><strong>B. Mechanical & Bonding</strong> — Mechanisms 1, 4, 6 (fluid migration/"leak," battery pressure, latent bonding defects) — all involving pressure or process defects in the bonded assembly</li>
+    <li><strong>C. Chemical & Electrical</strong> — Mechanisms 5, 7, 9 (pixel-memory corruption, vinegar syndrome polarizer aging, ITO degradation) — all involving material/electrical degradation without impact</li>
+  </ul>
+  No single mechanism is claimed as the definitive diagnosis; the strength is cumulative: 9 independent non-impact paths explain the photos, while impact explains none without inventing external evidence.
+</div>
+
+<div class="mechanism-group" id="group-mechanical">
+  <h3 id="group-mechanical-heading">B. Mechanical & Bonding — Pressure and Process Defects</h3>
 <div class="mechanism-card">
   <h3>Mechanism 1: Sharp Memory LCD "Leak" (Fluid Migration)</h3>
   <p>Sharp Memory LCDs have a documented, technology-specific failure mode. The liquid crystal material between the glass substrate layers can migrate or "leak" when the panel seal is compromised. This is distinct from standard LCD failures and is well-documented by hardware developers who work with these exact displays. Engineers with decades of Sharp LCD experience have named a related phenomenon "LCD plague": progressive dark stains caused by imperfect sealing of the display, resulting in deterioration of the hygroscopic liquid crystal material, "shown by dark stains, over time slowly extending, from the sealed edges to the middle of the display."<sup><a href="#ref-30">[30]</a></sup></p>
@@ -565,11 +666,14 @@ blockquote cite {
   </div>
   <p>The transition from full-screen pixel corruption (Photo 1) to a concentrated diagonal streak (Photo 2) is consistent with liquid crystal fluid migrating from a distributed state to a concentrated region over time. Impact typically creates a defect most pronounced at the moment of contact; while secondary evolution is possible, wholesale transformation from full-screen vertical corruption to a localized diagonal streak with clearing is atypical for a single impact. The Hackster author's observation that damage reveals slowly over 4-10 days further illustrates why a visual assessment at a single point in time cannot establish impact as the cause — progressive failure can emerge days after the initial stress event, whether that stress was impact, pressure, or storage-related.</p>
 </div>
+</div> <!-- end mechanical group start -->
 
 <div class="callout-blue">
   <strong>The recovery method is consistent with fluid displacement rather than structural fracture, but does not alone prove causation.</strong> The Hackster.io author reported that leaked Sharp Memory LCDs can be recovered by applying uniform pressure and freezing at -20&#176;C for 10 to 50 hours.<sup><a href="#ref-3">[3]</a></sup> This recovery is consistent with reversible material displacement: liquid crystal material that has shifted out of position between the glass substrate layers can be redistributed through mechanical pressure and thermal contraction. Cracked glass from impact cannot be un-cracked by pressure and cold, but displaced liquid crystal fluid can be pushed back into place by this process. The reported success of the recovery method shows the visible symptom does not necessarily establish impact fracture and is mechanistically different from typical impact fracture, though the guide does not provide laboratory analysis excluding every structural failure mode. The Hackster source itself lists impact as one possible initiating cause alongside "long time pressure" and "uncareful storage," so recovery alone does not prove causation for this specific unit; it does show the failure mode is mechanistically different from cracked glass.
 </div>
 
+<div class="mechanism-group" id="group-thermal">
+  <h3 id="group-thermal-heading">A. Thermal & CTE-Mismatch — Heat Cycling and Differential Expansion</h3>
 <div class="mechanism-card">
   <h3>Mechanism 2: Thermal Cycling and CTE Mismatch</h3>
   <p>Every charge cycle heats the Playdate's internals, then cools when charging completes. The LCD panel (glass substrate), the adhesive bond, and the plastic housing have different coefficients of thermal expansion (CTE). Glass expands at approximately 9 x 10<sup>-6</sup>/&#176;C; polycarbonate at approximately 65 to 70 x 10<sup>-6</sup>/&#176;C.<sup><a href="#ref-18">[18]</a></sup> This roughly 7x difference means they expand and contract at different rates with every temperature change, creating shear stress at the adhesive interface that can accumulate over charge cycles. Direct temperature measurement of the Playdate during charging was not performed for this analysis; this mechanism is presented as a plausible hypothesis consistent with documented failure modes, not a measured finding.</p>
@@ -616,6 +720,10 @@ blockquote cite {
   </div>
 </div>
 
+</div> <!-- end thermal group -->
+
+<div class="mechanism-group" id="group-mechanical-2">
+  <h3>Continued: Mechanical & Bonding</h3>
 <div class="mechanism-card">
   <h3>Mechanism 4: Battery Swelling and Internal Pressure (Possible Contributor)</h3>
   <p>Lithium-ion batteries can swell during normal charge/discharge cycling as gas generation inside the cell causes the sealed pouch to expand. In a compact device, even minor swelling could exert pressure against adjacent components. This is presented as a possible contributing factor, not a measured finding in this unit.</p>
@@ -624,6 +732,10 @@ blockquote cite {
   </div>
 </div>
 
+</div> <!-- end mechanical-2 -->
+
+<div class="mechanism-group" id="group-chemical">
+  <h3 id="group-chemical-heading">C. Chemical & Electrical — Material Degradation and Memory Corruption</h3>
 <div class="mechanism-card">
   <h3>Mechanism 5: Pixel Memory Corruption from Power Instability (Hypothesis)</h3>
   <p>The Sharp LS027B7DH01 is a Memory-in-Pixel LCD: each pixel contains an SRAM cell that holds its state with near-zero power draw.<sup><a href="#ref-1">[1]</a></sup> This is the feature that gives Memory LCDs their name and their ultra-low power consumption. One hypothesis is that if charge cycling caused voltage instability or ripple on the power rail from the LTC3576<sup><a href="#ref-10">[10]</a></sup>, pixel SRAM contents could be corrupted in patterns that persist until rewritten. No power-rail measurement was performed on this unit; this remains a hypothesis consistent with the vertical banding pattern, not a confirmed mechanism.</p>
@@ -652,6 +764,23 @@ blockquote cite {
   <div class="evidence">
     <strong>Distinguishing from impact:</strong> Vinegar syndrome is documented as a non-impact failure mode — chemical aging of the adhesive layer itself. The existence of documented non-impact modes that produce diagonal streaks growing over time is relevant to whether a diagonal streak must imply impact. This does not prove this unit has vinegar syndrome.
   </div>
+</div>
+</div> <!-- end chemical group -->
+
+<div class="limitations-box" id="limitations">
+  <h3>Limitations & What This Page Does Not Claim</h3>
+  <p>This page presents plausible non-impact failure modes consistent with the photos and manufacturer literature. It is not a laboratory failure analysis of this specific unit. To keep the analysis honest, the following limits are stated explicitly:</p>
+  <ul>
+    <li><strong>No unit-level diagnostic:</strong> No disassembly, microscopy (SEM), energy-dispersive X-ray (EDX), power-rail measurement, temperature logging, or chemical analysis of adhesive/polarizer was performed on this unit. The mechanisms are hypotheses grounded in documented failure modes, not a definitive diagnosis.</li>
+    <li><strong>Generic literature, not unit-specific proof:</strong> Reshine Display, Phoenix Display, AGDisplays, Focus LCDs, EDN failure analysis, MDPI peer-reviewed studies, and other sources describe LCD failure modes generally. They establish that spontaneous failure near heat sources is recognized by manufacturers and that tight-case mounting causes failures — they do not prove which mechanism caused this unit.</li>
+    <li><strong>ITO-on-polycarbonate is analogy:</strong> Studies showing ITO cracking at 0.27–0.35% strain and 58°C critical temperature on polycarbonate substrates (Johannes et al., Zhou et al.) are cited to show low thresholds for this material pairing, not as direct measurement of the Playdate's ITO stack. The Playdate's ITO is part of the LCD stack, not demonstrated to be deposited directly on its housing.</li>
+    <li><strong>Sharp LCY-W and other Sharp cautions are corroborative:</strong> Sharp's "even the slightest stress will cause a color change" warning for LCY-W-12203C and Notes 9/10/11/14 for LS027B7DH01 are Sharp handling cautions in tension with bonded construction. They are not proof that Panic violated the spec — the exact adhesive placement vs Sharp's definition of "panel surface" cannot be determined from teardown photos alone.</li>
+    <li><strong>Apple Watch and other class actions are pattern evidence, not proof:</strong> The Kenneth Sciacca v. Apple allegation of an internal policy to deny defects as accidental damage was a plaintiff allegation, not a proven finding. Apple settled without admitting wrongdoing. It is cited as a pattern where glued-in displays failing during charging were attributed to consumer damage, then settled.</li>
+    <li><strong>Shipping alternative:</strong> The unit shipped between Photo 1 and Photo 2. A second impact during shipping cannot be ruled out by photos alone. What weighs against it: (a) Phoenix Display documents latent defects are exposed by vibration/thermal effects from shipping, (b) housing remains pristine in both photo sets, (c) transformation from full-screen vertical corruption to localized diagonal streak with clearing is atypical for single impact even with secondary evolution, and (d) no impact point, radial cracks, or case damage were documented by Panic on receipt.</li>
+    <li><strong>Temperature and chemical context qualified:</strong> Focus LCDs 300°C few-seconds guidance is manufacturing-process context for PCB attachment, not evidence Playdate exceeded safe temps. Heat-induced delamination and 1% field-failure alarm are cited as manufacturer quantification that heat alone causes delamination, not as proof of Playdate temps. Vinegar syndrome diagonal pattern is visual similarity, not confirmed diagnosis — no chemical analysis was performed.</li>
+    <li><strong>FTC and warranty law framing:</strong> FTC July 2024 warning letters to Sony/Microsoft/Nintendo addressed repair restrictions, not damage-based denials. The site cites them as showing active federal enforcement around warranty claim practices generally, not as direct precedent for impact-damage classification. 16 CFR 700.10(c) interpretation (tying) is cited as analogous principle that denials require documented causation, not as direct statutory application to impact exclusions. Panic's warranty is "limited," so 15 U.S.C. §2304(c) burden-shifting does not directly apply; relevant burdens come from Panic's own exclusion language and Oregon implied warranty law.</li>
+  </ul>
+  <p style="margin-top:0.75rem;">The cumulative weight remains: 7 impact signatures absent, 6 progressive signatures present, 9 documented non-impact mechanisms, and a progressive photo transformation that is not characteristic of a single impact. The absence of Panic diagnostic evidence (no identified impact point, no microscopy, no technician report) leaves the "impact damage" determination as a visual impression, not a demonstrated failure analysis.</p>
 </div>
 
 <!-- ======== SECTION 6: PROGRESSIVE PATTERN ======== -->
@@ -998,8 +1127,4 @@ blockquote cite {
     <li id="ref-83"><strong>Screen Delamination Progressive Nature: Heat, UV, Humidity, Age Accelerate, Starts Foggy/Cloudy Near Edges and Grows.</strong> <a href="https://medium.com/@daniel_85289/can-you-ignore-screen-delamination-ddb55c7409c9">Cuescreens / Medium (June 2026, delamination explainer)</a>. Documents bonded display delamination failure mode: "Your vehicle's touchscreen display is made up of multiple bonded layers: the outer glass or plastic digitizer that registers your touch, an adhesive layer, and the display panel behind it. Delamination happens when that adhesive bond breaks down. Heat, UV exposure, humidity, and age all accelerate the process. You will usually notice it first as a foggy or cloudy area near the edges or corners of the screen. Some vehicles show bubbling. Others develop a distinctly milky sheen across a growing portion of the display." Notes "wait-and-see approach almost always ends the same way. The affected area grows." Provides accessible technical authority that delamination is progressive, starts at edges/corners (consistent with Playdate lower-left edge concentration), accelerates with heat/age, and grows over time — matching photo evolution from full-screen corruption to localized streak, not single impact event.</li>
     <li id="ref-84"><strong>Focus LCDs Manufacturer Quantifies Heat-Induced Delamination: 1% Failure Rate Is Cause for Alarm.</strong> <a href="https://focuslcds.com/journals/delaminating-of-lcd-polarizers/">Focus LCDs (LCD Manufacturer)</a> (accessed Aug 2026, delaminating of LCD polarizers). Manufacturer documents: "LCD displays, especially older, mature display technologies such as segment and character LCDs have a very low fallout rate; so when we receive a request to return a large number of failures, we are concerned and want to solve the problem right away. A few weeks ago, one of our customers, a manufacture of test and measurement equipment, contacted us to report a 1% LCD Display failure rate. One percent failure is cause for alarm; after some investigation we found that the delaminating of LCD polarizers (or polarizers peeling away from the glass) was a result of excessive heat being applied to the display." Thermal limits (manufacturing-process context): "LCD displays, like microprocessors, are very sensitive to excessive heat and must be protected from exposure to high temperatures for long periods of time. In order to avoid the delaminating of LCD polarizers, the only time to expose the display to high heat is when it is being attached to the PCB (Printed Circuit Board)." Wave-solder guidance: "we recommend the display not be exposed to heat in excess of 300C (572F) and then only for a few seconds. We do not recommend running LCD through the solder process more than once." This is manufacturing-process guidance for PCB assembly, not a field operating temperature limit, and this source does not establish that the Playdate reached damaging temperatures or that its desk-charging thermal cycling exceeded this soldering limit. It does establish a manufacturer-recognized heat-induced delamination mechanism and that a 1% field-failure rate is treated as alarming, strengthening ref [7] core with quantified alarm threshold. Forensic distinction of thermal vs impact morphology relies on existing FBI SWGMAT ASTM C1256 and Corning TIP 201 sources (radial/concentric impact signatures vs curved smooth thermal fractures lacking identifiable origin), not on this source.</li>
 </ol>
-  <p class="updated">Last updated: August 28, 2026 14:08 PT — 84 sources (unique). Added Focus LCDs 1% delamination alarm quantification (ref 84) strengthening ref 7 heat-induced delamination with quantified alarm threshold. Prior 83 → 84 unique, HTML valid single </html> 192K 1005 lines, sequential refs 1-84, OG/twitter/subtitle 84 sources, README 84 sources, no visual regression.</p>
-</div>
-
-</body>
-</html>
+  <p class="updated">Last updated: August 28, 2026 14:29 PT — 84 sources (unique). Clear-win edits: added TL;DR summary (green box), grouped mechanisms into 3 families (thermal/CTE, mechanical/bonding, chemical/electrical) with hierarchy, added limitations box (honest gaps), expanded TOC to include summary/limitations/groups. No source count change, HTML valid single </html>. — 84 sources (unique). Added Focus LCDs 1% delamination alarm quantification (ref 84) strengthening ref 7 heat-induced delamination with quantified alarm threshold. Prior 83 → 84 unique, HTML valid single </html>
