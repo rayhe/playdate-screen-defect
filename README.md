@@ -1,6 +1,6 @@
 # Playdate Screen Defect: Technical Analysis of "Impact Damage" Claim
 
-Panic denied a warranty claim on a Playdate with progressive screen failure, calling it "impact damage." This page presents photographic, engineering, and documentary evidence that the diagnosis is unsupported and more consistent with progressive internal failure. 84 sources.
+Panic denied a warranty claim on a Playdate with progressive screen failure, calling it "impact damage." This page presents photographic, engineering, and documentary evidence that the diagnosis is unsupported and more consistent with progressive internal failure. 85 sources.
 
 ## What This Is
 
@@ -40,7 +40,7 @@ The defect pattern changed over time: full-screen pixel corruption evolved into 
 
 ## Update Log
 
-- 2026-08-28 14:08 PT: Added ref 84 (Focus LCDs 1% delamination alarm quantification), mechanism 1 strengthened with quantified alarm threshold (300°C few seconds guidance is manufacturing-process context only, does not establish Playdate reached damaging temperatures), 84 sources
+- 2026-08-28 14:08 PT: Added ref 84 (Focus LCDs 1% delamination alarm quantification), mechanism 1 strengthened with quantified alarm threshold (300°C few seconds guidance is manufacturing-process context only, does not establish Playdate reached damaging temperatures), 85 sources
 
 - 2026-08-28 13:38 PT: Added refs 81-83 (EEVblog aging LCD glue darkening heat from nearby PCB, iFixit yellow marks usually indicate heat, Cuescreens delamination progressive heat/UV/humidity/age edge-start grows), mechanism 3 strengthened adhesive darkening heat-driven + PCN adhesive 3-layer→2layer+diffusion detail, 83 sources
 
