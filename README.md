@@ -1,6 +1,6 @@
 # Playdate Screen Defect: Technical Refutation of the "Impact Damage" Claim
 
-Panic denied a warranty claim on a Playdate with progressive screen failure, calling it "impact damage." This page presents the photographic, engineering, and documentary evidence showing that diagnosis is wrong. 57 sources.
+Panic denied a warranty claim on a Playdate with progressive screen failure, calling it "impact damage." This page presents the photographic, engineering, and documentary evidence showing that diagnosis is wrong. 59 sources.
 
 ## What This Is
 
@@ -30,4 +30,4 @@ The defect pattern changed over time: full-screen pixel corruption evolved into 
 ## Update Log
 
 - 2026-08-28: Added bonding process latent defect mechanism (Sinocrystal source 57), 5-cycle heat shock / 120N / ±200V reliability limits, 6th mechanism card
-- 2026-08-26: 56 sources baseline
+- 2026-08-26: 59 sources baseline
