@@ -1,6 +1,6 @@
 # Playdate Screen Defect: Technical Analysis of "Impact Damage" Claim
 
-Panic denied a warranty claim on a Playdate with progressive screen failure, calling it "impact damage." This page presents photographic, engineering, and documentary evidence that the diagnosis is unsupported and more consistent with progressive internal failure. 85 sources.
+Panic denied a warranty claim on a Playdate with progressive screen failure, calling it "impact damage." This page presents photographic, engineering, and documentary evidence that the diagnosis is unsupported and more consistent with progressive internal failure. 87 sources.
 
 ## What This Is
 
@@ -14,7 +14,7 @@ The defect pattern changed over time: full-screen pixel corruption evolved into 
 
 ## Sources
 
-84 inline citations from primary sources including:
+87 inline citations from primary sources including:
 
 - [Sharp LS027B7DH01 Datasheet](https://media.digikey.com/pdf/Data%20Sheets/Sharp%20PDFs/LS027B7DH01.pdf) (Sharp Microelectronics) — 120N surface stress minimum, 5-cycle heat shock, ±200V ESD
 - [Playdate Teardown](https://www.ifixit.com/Teardown/Playdate+Teardown/143811) (iFixit)
@@ -40,7 +40,9 @@ The defect pattern changed over time: full-screen pixel corruption evolved into 
 
 ## Update Log
 
-- 2026-08-28 14:08 PT: Added ref 84 (Focus LCDs 1% delamination alarm quantification), mechanism 1 strengthened with quantified alarm threshold (300°C few seconds guidance is manufacturing-process context only, does not establish Playdate reached damaging temperatures), 85 sources
+- 2026-08-28 15:08 PT: Added refs 86-87 (FTC warning letters + SEMA written-denial recommendation, Reshine spontaneous-failure FAQ manufacturer admission) — strengthens legal documentation burden and spontaneous-failure authority, qualified Mechanism 1 impact-point language per FBI SWGMAT, 85 → 87 sources
+
+- 2026-08-28 14:08 PT: Added ref 84 (Focus LCDs 1% delamination alarm quantification), mechanism 1 strengthened with quantified alarm threshold (300°C few seconds guidance is manufacturing-process context only, does not establish Playdate reached damaging temperatures), 87 sources
 
 - 2026-08-28 13:38 PT: Added refs 81-83 (EEVblog aging LCD glue darkening heat from nearby PCB, iFixit yellow marks usually indicate heat, Cuescreens delamination progressive heat/UV/humidity/age edge-start grows), mechanism 3 strengthened adhesive darkening heat-driven + PCN adhesive 3-layer→2layer+diffusion detail, 83 sources
 
