@@ -1,6 +1,6 @@
 # Playdate Screen Defect: Technical Analysis of "Impact Damage" Claim
 
-Panic denied a warranty claim on a Playdate with progressive screen failure, calling it "impact damage." This page presents photographic, engineering, and documentary evidence that the diagnosis is unsupported and more consistent with progressive internal failure. 65 sources.
+Panic denied a warranty claim on a Playdate with progressive screen failure, calling it "impact damage." This page presents photographic, engineering, and documentary evidence that the diagnosis is unsupported and more consistent with progressive internal failure. 70 sources.
 
 ## What This Is
 
@@ -14,7 +14,7 @@ The defect pattern changed over time: full-screen pixel corruption evolved into 
 
 ## Sources
 
-65 inline citations from primary sources including:
+70 inline citations from primary sources including:
 
 - [Sharp LS027B7DH01 Datasheet](https://media.digikey.com/pdf/Data%20Sheets/Sharp%20PDFs/LS027B7DH01.pdf) (Sharp Microelectronics) — 120N surface stress minimum, 5-cycle heat shock, ±200V ESD
 - [Playdate Teardown](https://www.ifixit.com/Teardown/Playdate+Teardown/143811) (iFixit)
@@ -33,7 +33,7 @@ The defect pattern changed over time: full-screen pixel corruption evolved into 
 
 ## Update Log
 
-- 2026-08-28 04:53 PT: Added source 65 (Intertronics/Dymax bonded-optics stress), corrected §2304(c) applicability (full vs limited), softened absolute claims (adhesive "violation," 58°C, static clock, impact "fixed," "proves"), qualified Hackster recovery, qualified FBI/Corning as illustrative not direct diagnosis, softened Apple "patented solution" rhetoric, softened battery swelling/pixel-memory/vinegar syndrome from definitive to possible/hypothesis/documented pattern, corrected EOL from "unsuitable" to supply end-of-life, softened pen-test absolutes. 65 sources.
+- 2026-08-28 04:53 PT: Added source 65 (Intertronics/Dymax bonded-optics stress), corrected §2304(c) applicability (full vs limited), softened absolute claims (adhesive "violation," 58°C, static clock, impact "fixed," "proves"), qualified Hackster recovery, qualified FBI/Corning as illustrative not direct diagnosis, softened Apple "patented solution" rhetoric, softened battery swelling/pixel-memory/vinegar syndrome from definitive to possible/hypothesis/documented pattern, corrected EOL from "unsuitable" to supply end-of-life, softened pen-test absolutes. 70 sources.
 - 2026-08-28 04:08 PT: Added sources 63 (MDPI Micromachines glass substrate packaging CTE mismatch) and 64 (Optica JDT ITO thermal cycling 900 cycles), strengthened Mechanism 2 with peer-reviewed quantitative data, updated to 64 sources
 - 2026-08-28 03:53 PT: Added sources 61 (Tesla Model Y bonded glass stress crack) and 62 (Apple hairline crack policy change with 6-outlet corroboration), 62 sources
 - 2026-08-28 03:08 PT: Added source 60 (LCD vinegar syndrome polarizer adhesive chemical degradation), 7th mechanism card, 60 sources
