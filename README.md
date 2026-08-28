@@ -33,14 +33,14 @@ The defect pattern changed over time: full-screen pixel corruption evolved into 
 - [Acer XR382CQK Spontaneous Crack](https://www.ifixit.com/Answers/View/580803/What+could+have+caused+my+monitor+to+crack+and+melt+spontaneously) — 13th industry case: spontaneous crack melt scorching, manufacturer claimed impact charging £1000+, 850k rep authority
 - [Sharp Storage Sensitivity 0-40°C 60%RH 3mo](https://media.digikey.com/pdf/Data%20Sheets/Sharp%20PDFs/LS027B7DH01.pdf) — 0-40°C 60%RH 3-month period, no condensation, harmful gas prohibition, >50%RH earth ESD
 - [MDPI Ultra-Thin Glass CTE Mismatch](https://www.mdpi.com/2072-666X/16/11/1256) — thermo-mechanical peeling stress RDL/ABF vs glass during cooling, top-edge dominant, ERR increases near interface
-- [Focus LCDs 1% Delamination Alarm](https://focuslcds.com/journals/delaminating-of-lcd-polarizers/) — manufacturer quantifies 1% failure triggers alarm, heat sole cause, 300°C few seconds limit, single PCB attachment exposure
+- [Focus LCDs 1% Delamination Alarm](https://focuslcds.com/journals/delaminating-of-lcd-polarizers/) — manufacturer quantifies 1% failure is cause for alarm, heat-induced polarizer delamination; 300°C few seconds guidance is manufacturing-process context, not field operating temperature, and does not establish Playdate reached damaging temperatures — strengthens ref 7 with quantified alarm threshold
 - [Playdate Warranty](https://help.play.date/service/warranty/) (Panic, Inc.)
 - [Oregon Revised Statutes ORS 72.3140](https://www.oregonlegislature.gov/bills_laws/ors/ors072.html) + [ORS 646.608](https://www.oregonlegislature.gov/bills_laws/ors/ors646.html)
 - [Magnuson-Moss Warranty Act](https://www.law.cornell.edu/uscode/text/15/chapter-50) (15 U.S.C. 2301-2312) — §2304(c) applies to "full" warranties; Panic's is "limited" so §2304(a)/(c) does not directly govern; relevant are Panic's own exclusions, ORS 72.3140, §2308 anti-disclaimer, §2310(d) fee-shifting
 
 ## Update Log
 
-- 2026-08-28 14:08 PT: Added ref 84 (Focus LCDs 1% delamination alarm + 300°C few seconds tight thermal limits manufacturer quantification), mechanism 1 strengthened with quantified alarm threshold + forensic wave-shaped thermal vs radial impact distinction (Reading the Clues), 84 sources
+- 2026-08-28 14:08 PT: Added ref 84 (Focus LCDs 1% delamination alarm quantification), mechanism 1 strengthened with quantified alarm threshold (300°C few seconds guidance is manufacturing-process context only, does not establish Playdate reached damaging temperatures), 84 sources
 
 - 2026-08-28 13:38 PT: Added refs 81-83 (EEVblog aging LCD glue darkening heat from nearby PCB, iFixit yellow marks usually indicate heat, Cuescreens delamination progressive heat/UV/humidity/age edge-start grows), mechanism 3 strengthened adhesive darkening heat-driven + PCN adhesive 3-layer→2layer+diffusion detail, 83 sources
 
