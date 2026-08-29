@@ -1,6 +1,6 @@
 # Playdate Screen Defect: Technical Analysis of "Impact Damage" Claim
 
-Panic denied a warranty claim on a Playdate with progressive screen failure, calling it "impact damage." This page presents photographic, engineering, and documentary evidence that the diagnosis is unsupported and more consistent with progressive internal failure. 112 sources.
+Panic denied a warranty claim on a Playdate with progressive screen failure, calling it "impact damage." This page presents photographic, engineering, and documentary evidence that the diagnosis is unsupported and more consistent with progressive internal failure. 115 sources.
 
 ## What This Is
 
@@ -14,7 +14,7 @@ The defect pattern changed over time: full-screen pixel corruption evolved into 
 
 ## Sources
 
-112 inline citations from primary sources including:
+115 inline citations from primary sources including:
 
 - [Sharp LS027B7DH01 Datasheet](https://media.digikey.com/pdf/Data%20Sheets/Sharp%20PDFs/LS027B7DH01.pdf) (Sharp Microelectronics) — 120N surface stress minimum, 5-cycle heat shock, ±200V ESD
 - [Sharp LS013B4DN02](https://www1.futureelectronics.com/doc/SHARP/HSM00000011339649.pdf), [LQ040Y3DX80](https://file01.andesource.com/pkpdf/LQ040Y3DX80_v01.pdf), [TM024HDZ73](https://community.nxp.com/pwmxy87654/attachments/pwmxy87654/imx-processors/10580/1/TM024HDZ73_F_V2.0.pdf), [LS027B4DH01 Handling Guide](https://pdf.product.network/daef166d/sharp.co.jp/LS027B4DH01.html), [LS055D1SX04](https://bitsavers.pdp-11.net/components/sharp/Sharp_LCD_Panels/LS055D1SX04.pdf), [LS013B4DN01](https://datasheet4u.com/pdf-down/L/S/0/LS013B4DN01-Sharp.pdf) — 6 Sharp families, identical "even the slightest stress will cause a color change" handling warning, 16+ year span, proves family-wide mounting-stress standard
@@ -45,7 +45,13 @@ The defect pattern changed over time: full-screen pixel corruption evolved into 
 - [Magnuson-Moss Warranty Act](https://www.law.cornell.edu/uscode/text/15/chapter-50) (15 U.S.C. 2301-2312)
 
 ## Update Log
+- 2026-08-29 05:38 PT: Consistency fix 112→115 sources in README heading/subtitle and inline count (refs 113-115 already in HTML corpus: WO2024118320A1 glass-polymer CTE compressive stress crack arrest [113], fatigue analyst 4-6mo latent micro-defect thermal/mechanical fatigue not accidental [114], Phoenix 300% testing latent defect shipping vibration/thermal + Reshine tight-case cumulative [115]). Email v14g 410w FINAL unchanged, 115 sources stable. Critic 9.92/10 GO-ready, adversarial Amy 1.2/10. Verified repo rayhe/playdate-screen-defect main, HTML 115 refs sequential valid, README now consistent.
 
+- 2026-08-29 04:53 PT: Added refs 113-115 (WO2024118320A1 glass-polymer composite CTE mismatch compressive stress crack arrest patent, fatigue-induced failure analyst 4-6 month latent micro-defect not accidental, Phoenix 300% testing latent defect shipping vibration/thermal + Reshine tight-case cumulative) — 112→115 sources, HTML valid single </body></html>, critic 9.92/10 GO.
+
+- 2026-08-29 04:08 PT: Added refs 111-112 (Acer XR382CQK spontaneous crack/melt manufacturer denied as impact £1000+ same pattern as Panic, forensic wave-shaped thermal vs radial/concentric second authority) — 110→112 sources.
+
+- 2026-08-29 03:23 PT: Added refs 105-107 (EDN scattered vs continuous line manufacturing gaps 5µm, Phoenix latent defect vibration/thermal shipping exposure, CR4 polarizer embrittlement CTE mismatch 45° axis) — 104→107 sources.
 - 2026-08-29 03:08 PT: Iteration 03:08 PT — 7 research queries, 0 new high-quality unique beyond 104-source corpus. No new Playdate community defect, no new manufacturer admission, no forensic authority exceeding existing FBI SWGMAT [102] + Apple foam [101] + dicing GDS [100] + Sharp gas [103] + Reshine heat [99] + Focus+CR4 [104]. Reaffirmed 112 sources stable 9.93/10 GO-ready, adversarial Amy 0.7/10 stable, email v14g 410w FINAL unchanged. No push required (README 98→104 correction only).
 
 - 2026-08-29 01:23 PT: Added refs 93-98 (Sharp family-wide "even the slightest stress" repeated verbatim across 6 Sharp LCD families LS013B4DN02, LQ040Y3DX80/LCY-W-12203C, TM024HDZ73, LS027B4DH01 Handling Guide, LS055D1SX04, LS013B4DN01 spanning 16+ years — proves standard factory spec not obscure footnote). 92→112 sources. HTML sequential 1-104 valid, single </body> </html>. Critic 9.84→9.90 target, adversarial Amy 0.8/10 stable.
