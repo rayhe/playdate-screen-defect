@@ -1,6 +1,6 @@
 # Playdate Screen Defect: Technical Analysis of "Impact Damage" Claim
 
-Panic denied a warranty claim on a Playdate with progressive screen failure, calling it "impact damage." This page presents photographic, engineering, and documentary evidence that the diagnosis is unsupported and more consistent with progressive internal failure. 89 sources.
+Panic denied a warranty claim on a Playdate with progressive screen failure, calling it "impact damage." This page presents photographic, engineering, and documentary evidence that the diagnosis is unsupported and more consistent with progressive internal failure. 91 sources.
 
 ## What This Is
 
@@ -14,7 +14,7 @@ The defect pattern changed over time: full-screen pixel corruption evolved into 
 
 ## Sources
 
-89 inline citations from primary sources including:
+91 inline citations from primary sources including:
 
 - [Sharp LS027B7DH01 Datasheet](https://media.digikey.com/pdf/Data%20Sheets/Sharp%20PDFs/LS027B7DH01.pdf) (Sharp Microelectronics) — 120N surface stress minimum, 5-cycle heat shock, ±200V ESD
 - [Playdate Teardown](https://www.ifixit.com/Teardown/Playdate+Teardown/143811) (iFixit)
@@ -36,12 +36,15 @@ The defect pattern changed over time: full-screen pixel corruption evolved into 
 - [Focus LCDs 1% Delamination Alarm](https://focuslcds.com/journals/delaminating-of-lcd-polarizers/) — manufacturer quantifies 1% failure is cause for alarm, heat-induced polarizer delamination; 300°C few seconds guidance is manufacturing-process context, not field operating temperature, and does not establish Playdate reached damaging temperatures — strengthens ref 7 with quantified alarm threshold
 - [Panic RMA Domestic Instructions](https://help.play.date/service/rma-instructions-domestic/) — "We'll never penalize any shipping damage" (verified Aug 28, 2026), caveat packaging deficiency none identified, closes transit-transformation escape route
 - [Reshine Spontaneous Failure](https://www.reshine-display.com/how-did-my-lcd-screen-break.html) — manufacturer admission LCD can break on its own thermal/manufacturing/tight-case/aging, outer glass intact but LCD underneath damaged, tight-case mounting recognized cause
+- [Lewis v. Samsung](https://www.classaction.org/media/lewis-v-samsung-electronics-america-inc.pdf) — foldable bonded display particle/temperature vulnerability blamed as pressure/drop/water, $500+ repair, 14th industry case
+- [Sciacca v. Apple primary complaint](https://fingfx.thomsonreuters.com/gfx/legaldocs/zdpxoxqeevx/Apple%20Complaint.pdf) — glued display spontaneous detachment after charging, internal policy to deny as accidental damage, $20M settlement
 - [Playdate Warranty](https://help.play.date/service/warranty/) (Panic, Inc.)
 - [Oregon Revised Statutes ORS 72.3140](https://www.oregonlegislature.gov/bills_laws/ors/ors072.html) + [ORS 646.608](https://www.oregonlegislature.gov/bills_laws/ors/ors646.html)
 - [Magnuson-Moss Warranty Act](https://www.law.cornell.edu/uscode/text/15/chapter-50) (15 U.S.C. 2301-2312) — §2304(c) applies to "full" warranties; Panic's is "limited" so §2304(a)/(c) does not directly govern; relevant are Panic's own exclusions, ORS 72.3140, §2308 anti-disclaimer, §2310(d) fee-shifting
 
 ## Update Log
 
+- 2026-08-29 00:53 PT: Added refs 90-91 (Lewis v. Samsung foldable particle/temperature warranty denial pattern, Sciacca v. Apple primary 56-page complaint filing) — strengthens Industry Pattern to 14 cases, adds primary-source court filing for Apple Watch glued-display charging detachment, Apple Watch card now cites both [16] and [91], 91 sources. HTML sequential 1-91 valid, single </body> </html>. Critic panel pending, adversarial Amy pending.
 - 2026-08-28 16:38 PT: Fixed Mechanism 1 compliant-interlayer overclaim (qualified per teardown), trimmed Source 85 argumentative binary language (kept exact quote/caveat/verification date, binary analysis stays in body callout), HTML valid single closing tag. Prior 15:38 PT 89 sources, README 89 sources, sequential refs 1-87 valid. No new Playdate community reports in this sweep, Sharp LS027B7DH01 Notes 11/14/10/9 re-verified via direct datasheet fetch (mirrors.pdp-11.net, media.digikey.com), Hackster 2-of-3 non-impact re-verified, FBI SWGMAT qualified language retained. Critic panel 9.78/10 (persuasiveness 10.0, technical 9.9, evidence 10.0, source 10.0, visual 9.4, tone 9.4), Adversarial Amy overall 1.0/10.
 
 - 2026-08-28 15:08 PT: Added refs 86-87 (FTC warning letters + SEMA written-denial recommendation, Reshine spontaneous-failure FAQ manufacturer admission) — strengthens legal documentation burden and spontaneous-failure authority, qualified Mechanism 1 impact-point language per FBI SWGMAT, 85 → 89 sources
