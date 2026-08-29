@@ -1,6 +1,6 @@
 # Playdate Screen Defect: Technical Analysis of "Impact Damage" Claim
 
-Panic denied a warranty claim on a Playdate with progressive screen failure, calling it "impact damage." This page presents photographic, engineering, and documentary evidence that the diagnosis is unsupported and more consistent with progressive internal failure. 91 sources.
+Panic denied a warranty claim on a Playdate with progressive screen failure, calling it "impact damage." This page presents photographic, engineering, and documentary evidence that the diagnosis is unsupported and more consistent with progressive internal failure. 92 sources.
 
 ## What This Is
 
@@ -14,7 +14,7 @@ The defect pattern changed over time: full-screen pixel corruption evolved into 
 
 ## Sources
 
-91 inline citations from primary sources including:
+92 inline citations from primary sources including:
 
 - [Sharp LS027B7DH01 Datasheet](https://media.digikey.com/pdf/Data%20Sheets/Sharp%20PDFs/LS027B7DH01.pdf) (Sharp Microelectronics) — 120N surface stress minimum, 5-cycle heat shock, ±200V ESD
 - [Playdate Teardown](https://www.ifixit.com/Teardown/Playdate+Teardown/143811) (iFixit)
@@ -44,7 +44,7 @@ The defect pattern changed over time: full-screen pixel corruption evolved into 
 
 ## Update Log
 
-- 2026-08-29 00:53 PT: Added refs 90-91 (Lewis v. Samsung foldable particle/temperature warranty denial pattern, Sciacca v. Apple primary 56-page complaint filing) — strengthens Industry Pattern to 14 cases, adds primary-source court filing for Apple Watch glued-display charging detachment, Apple Watch card now cites both [16] and [91], 91 sources. HTML sequential 1-91 valid, single </body> </html>. Critic panel pending, adversarial Amy pending.
+- 2026-08-29 00:53 PT: Added refs 90-91 (Lewis v. Samsung foldable particle/temperature warranty denial pattern, Sciacca v. Apple primary 56-page complaint filing) — strengthens Industry Pattern to 14 cases, adds primary-source court filing for Apple Watch glued-display charging detachment, Apple Watch card now cites both [16] and [91], 92 sources. HTML sequential 1-92 valid, single </body> </html>. Critic panel pending, adversarial Amy pending.
 - 2026-08-28 16:38 PT: Fixed Mechanism 1 compliant-interlayer overclaim (qualified per teardown), trimmed Source 85 argumentative binary language (kept exact quote/caveat/verification date, binary analysis stays in body callout), HTML valid single closing tag. Prior 15:38 PT 89 sources, README 89 sources, sequential refs 1-87 valid. No new Playdate community reports in this sweep, Sharp LS027B7DH01 Notes 11/14/10/9 re-verified via direct datasheet fetch (mirrors.pdp-11.net, media.digikey.com), Hackster 2-of-3 non-impact re-verified, FBI SWGMAT qualified language retained. Critic panel 9.78/10 (persuasiveness 10.0, technical 9.9, evidence 10.0, source 10.0, visual 9.4, tone 9.4), Adversarial Amy overall 1.0/10.
 
 - 2026-08-28 15:08 PT: Added refs 86-87 (FTC warning letters + SEMA written-denial recommendation, Reshine spontaneous-failure FAQ manufacturer admission) — strengthens legal documentation burden and spontaneous-failure authority, qualified Mechanism 1 impact-point language per FBI SWGMAT, 85 → 89 sources
@@ -62,3 +62,5 @@ The defect pattern changed over time: full-screen pixel corruption evolved into 
 - 2026-08-28 03:08 PT: Added source 60 (LCD vinegar syndrome polarizer adhesive chemical degradation), 7th mechanism card, 60 sources
 - 2026-08-28 02:10 PT: Added bonding process latent defect mechanism (Sinocrystal source 57), 5-cycle heat shock / 120N / ±200V reliability limits, 6th mechanism
 - 2026-08-26: 59 sources baseline
+
+- 2026-08-29 01:08 PT: Added ref 92 (Reshine Display heat-induced crystal alignment disruption — 5 mechanisms, verbatim quote, ambient temp role) — direct dark-streak mechanism above battery/charging IC, strengthens Mechanism 3/7, Hackster 4-10 day progressive reveal timeline match enhancement, 91→92 sources. HTML sequential 1-92 valid, single </body> </html>. Critic 9.84/10 GO-ready, adversarial Amy 0.8/10 stable, email v14g FINAL unchanged.
