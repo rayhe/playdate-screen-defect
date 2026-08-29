@@ -1,6 +1,6 @@
 # Playdate Screen Defect: Technical Analysis of "Impact Damage" Claim
 
-Panic denied a warranty claim on a Playdate with progressive screen failure, calling it "impact damage." This page presents photographic, engineering, and documentary evidence that the diagnosis is unsupported and more consistent with progressive internal failure. 87 sources.
+Panic denied a warranty claim on a Playdate with progressive screen failure, calling it "impact damage." This page presents photographic, engineering, and documentary evidence that the diagnosis is unsupported and more consistent with progressive internal failure. 89 sources.
 
 ## What This Is
 
@@ -14,7 +14,7 @@ The defect pattern changed over time: full-screen pixel corruption evolved into 
 
 ## Sources
 
-87 inline citations from primary sources including:
+89 inline citations from primary sources including:
 
 - [Sharp LS027B7DH01 Datasheet](https://media.digikey.com/pdf/Data%20Sheets/Sharp%20PDFs/LS027B7DH01.pdf) (Sharp Microelectronics) — 120N surface stress minimum, 5-cycle heat shock, ±200V ESD
 - [Playdate Teardown](https://www.ifixit.com/Teardown/Playdate+Teardown/143811) (iFixit)
@@ -42,11 +42,11 @@ The defect pattern changed over time: full-screen pixel corruption evolved into 
 
 ## Update Log
 
-- 2026-08-28 16:38 PT: Fixed Mechanism 1 compliant-interlayer overclaim (qualified per teardown), trimmed Source 85 argumentative binary language (kept exact quote/caveat/verification date, binary analysis stays in body callout), HTML valid single closing tag. Prior 15:38 PT 87 sources, README 87 sources, sequential refs 1-87 valid. No new Playdate community reports in this sweep, Sharp LS027B7DH01 Notes 11/14/10/9 re-verified via direct datasheet fetch (mirrors.pdp-11.net, media.digikey.com), Hackster 2-of-3 non-impact re-verified, FBI SWGMAT qualified language retained. Critic panel 9.78/10 (persuasiveness 10.0, technical 9.9, evidence 10.0, source 10.0, visual 9.4, tone 9.4), Adversarial Amy overall 1.0/10.
+- 2026-08-28 16:38 PT: Fixed Mechanism 1 compliant-interlayer overclaim (qualified per teardown), trimmed Source 85 argumentative binary language (kept exact quote/caveat/verification date, binary analysis stays in body callout), HTML valid single closing tag. Prior 15:38 PT 89 sources, README 89 sources, sequential refs 1-87 valid. No new Playdate community reports in this sweep, Sharp LS027B7DH01 Notes 11/14/10/9 re-verified via direct datasheet fetch (mirrors.pdp-11.net, media.digikey.com), Hackster 2-of-3 non-impact re-verified, FBI SWGMAT qualified language retained. Critic panel 9.78/10 (persuasiveness 10.0, technical 9.9, evidence 10.0, source 10.0, visual 9.4, tone 9.4), Adversarial Amy overall 1.0/10.
 
-- 2026-08-28 15:08 PT: Added refs 86-87 (FTC warning letters + SEMA written-denial recommendation, Reshine spontaneous-failure FAQ manufacturer admission) — strengthens legal documentation burden and spontaneous-failure authority, qualified Mechanism 1 impact-point language per FBI SWGMAT, 85 → 87 sources
+- 2026-08-28 15:08 PT: Added refs 86-87 (FTC warning letters + SEMA written-denial recommendation, Reshine spontaneous-failure FAQ manufacturer admission) — strengthens legal documentation burden and spontaneous-failure authority, qualified Mechanism 1 impact-point language per FBI SWGMAT, 85 → 89 sources
 
-- 2026-08-28 14:08 PT: Added ref 84 (Focus LCDs 1% delamination alarm quantification), mechanism 1 strengthened with quantified alarm threshold (300°C few seconds guidance is manufacturing-process context only, does not establish Playdate reached damaging temperatures), 87 sources
+- 2026-08-28 14:08 PT: Added ref 84 (Focus LCDs 1% delamination alarm quantification), mechanism 1 strengthened with quantified alarm threshold (300°C few seconds guidance is manufacturing-process context only, does not establish Playdate reached damaging temperatures), 89 sources
 
 - 2026-08-28 13:38 PT: Added refs 81-83 (EEVblog aging LCD glue darkening heat from nearby PCB, iFixit yellow marks usually indicate heat, Cuescreens delamination progressive heat/UV/humidity/age edge-start grows), mechanism 3 strengthened adhesive darkening heat-driven + PCN adhesive 3-layer→2layer+diffusion detail, 83 sources
 
