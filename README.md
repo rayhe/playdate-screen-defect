@@ -1,6 +1,6 @@
 # Playdate Screen Defect: Technical Analysis of "Impact Damage" Claim
 
-Panic denied a warranty claim on a Playdate with progressive screen failure, calling it "impact damage." This page presents photographic, engineering, and documentary evidence that the diagnosis is unsupported and more consistent with progressive internal failure. 131 sources.
+Panic denied a warranty claim on a Playdate with progressive screen failure, calling it "impact damage." This page presents photographic, engineering, and documentary evidence that the diagnosis is unsupported and more consistent with progressive internal failure. 134 sources.
 
 ## What This Is
 
@@ -14,7 +14,7 @@ The defect pattern changed over time: full-screen pixel corruption evolved into 
 
 ## Sources
 
-131 documented sources from primary sources including:
+134 documented sources from primary sources including:
 
 - [Sharp LS027B7DH01 Datasheet](https://media.digikey.com/pdf/Data%20Sheets/Sharp%20PDFs/LS027B7DH01.pdf) (Sharp Microelectronics) — 120N surface stress minimum, 5-cycle heat shock, ±200V ESD
 - [Sharp LS013B4DN02](https://www1.futureelectronics.com/doc/SHARP/HSM00000011339649.pdf), [LQ040Y3DX80](https://file01.andesource.com/pkpdf/LQ040Y3DX80_v01.pdf), [TM024HDZ73](https://community.nxp.com/pwmxy87654/attachments/pwmxy87654/imx-processors/10580/1/TM024HDZ73_F_V2.0.pdf), [LS027B4DH01 Handling Guide](https://pdf.product.network/daef166d/sharp.co.jp/LS027B4DH01.html), [LS055D1SX04](https://bitsavers.pdp-11.net/components/sharp/Sharp_LCD_Panels/LS055D1SX04.pdf), [LS013B4DN01](https://datasheet4u.com/pdf-down/L/S/0/LS013B4DN01-Sharp.pdf) — 6 Sharp families, identical "even the slightest stress will cause a color change" handling warning, 16+ year span, proves family-wide mounting-stress standard
@@ -48,6 +48,11 @@ The defect pattern changed over time: full-screen pixel corruption evolved into 
 - [Playdate Warranty](https://help.play.date/service/warranty/) (Panic, Inc.)
 - [Oregon Revised Statutes ORS 72.3140](https://www.oregonlegislature.gov/bills_laws/ors/ors072.html) + [ORS 646.608](https://www.oregonlegislature.gov/bills_laws/ors/ors646.html)
 - [Magnuson-Moss Warranty Act](https://www.law.cornell.edu/uscode/text/15/chapter-50) (15 U.S.C. 2301-2312)
+
+### New in 134-source update (Aug 30 03:38 PT)
+- [132] Focus LCDs polarizer delamination heat damage during manufacturing baking adhesive critical
+- [133] Reshine Display 'Can an LCD screen break on its own?' manufacturer confirmation thermal/manufacturing/pressure/aging
+- [134] Acer XR382CQK spontaneous crack/melt manufacturer claims impact £1000+ community 'very common for any manufacturer to deny' 17th industry misclassification case
 
 ## Update Log
 - 2026-08-30 02:42 PT: 126→131 sources — add [128] Acer Predator XB271HU spontaneous crack looks exactly like impact but isn't (Linus Tech Tips, strongest visual-heuristic refutation), [129] Pixel 6 spontaneous cracks pressure buildup + temperature cycling Google "Screens don't just crack" denial later reversed, [130] Sharp LS027B7DH01 PCN adhesive type change June 2023 + glass supplier AGC→Corning thickness reduction Aug 2024, [131] LS011B7DH03 family-wide PCN confirmation systematic EOL. Industry misclassification 14→16 cases (Acer 15th, Pixel 16th), manufacturing-process variability now dual-PCN sourced. README 127→131 consistency fix, HTML 131 sequential valid. Email v14g FINAL unchanged GO-ready. Critic 9.92/10 GO-ready, adversarial Amy 0.35/10.
