@@ -1,6 +1,6 @@
 # Playdate Screen Defect: Technical Analysis of "Impact Damage" Claim
 
-Panic denied a warranty claim on a Playdate with progressive screen failure, calling it "impact damage." This page presents photographic, engineering, and documentary evidence that the diagnosis is unsupported and more consistent with progressive internal failure. 142 sources.
+Panic denied a warranty claim on a Playdate with progressive screen failure, calling it "impact damage." This page presents photographic, engineering, and documentary evidence that the diagnosis is unsupported and more consistent with progressive internal failure. 144 sources.
 
 ## What This Is
 
@@ -14,7 +14,7 @@ The defect pattern changed over time: full-screen pixel corruption evolved into 
 
 ## Sources
 
-142 documented sources from primary sources including:
+144 documented sources from primary sources including:
 
 - [Sharp LS027B7DH01 Datasheet](https://media.digikey.com/pdf/Data%20Sheets/Sharp%20PDFs/LS027B7DH01.pdf) (Sharp Microelectronics) — 120N surface stress minimum, 5-cycle heat shock, ±200V ESD
 - [Sharp LS013B4DN02](https://www1.futureelectronics.com/doc/SHARP/HSM00000011339649.pdf), [LQ040Y3DX80](https://file01.andesource.com/pkpdf/LQ040Y3DX80_v01.pdf), [TM024HDZ73](https://community.nxp.com/pwmxy87654/attachments/pwmxy87654/imx-processors/10580/1/TM024HDZ73_F_V2.0.pdf), [LS027B4DH01 Handling Guide](https://pdf.product.network/daef166d/sharp.co.jp/LS027B4DH01.html), [LS055D1SX04](https://bitsavers.pdp-11.net/components/sharp/Sharp_LCD_Panels/LS055D1SX04.pdf), [LS013B4DN01](https://datasheet4u.com/pdf-down/L/S/0/LS013B4DN01-Sharp.pdf) — 6 Sharp families, identical "even the slightest stress will cause a color change" handling warning, 16+ year span, proves family-wide mounting-stress standard
