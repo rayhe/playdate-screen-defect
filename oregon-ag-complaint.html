@@ -278,7 +278,9 @@ blockquote {
 
 <p>Panic has not provided any diagnostic report, technician assessment, or identification of a specific impact point. The denial appears to rest entirely on a visual impression of a photograph, combined with a generalized assumption that customers are untruthful about device handling.</p>
 
-<p>Additionally, the Playdate's design is in tension with two handling recommendations from Sharp's own datasheet for the display panel it uses (LS027B7DH01): Handling Note 11 cautions against placing adhesive on the panel surface to avoid picture uniformity failure, and Operating Instruction 3 cautions that a still image should be displayed less than two hours to avoid image sticking. The Playdate's display is described as firmly glued to the housing, and community reports indicate it displays a static clock while charging/docked — potentially for longer than two hours. Whether the adhesive placement is directly on the "panel surface" as Sharp defines it cannot be determined from teardown photos alone. These potential tensions were not disclosed to consumers and are presented as context for plausibility of progressive failure, not as proof of a specification violation.</p>
+<p>MDPI 2024 shows damage 0.86 at bonded edges under 120°C→25°C cycling (ref 155); General Digital requires edge-only handling, star-pattern torque, warning over-torque creates edge hot spots (ref 157). Panic's glued construction documents no mitigation. Refs 155-160 add 50°C threshold + 5-tier forensic standard.</p>
+
+<p>Additionally, Sharp's datasheet for this panel (LS027B7DH01) cautions against adhesive on panel surface (Handling Note 11, uniformity risk) and still images >2 hours (Operating Instruction 3, image-sticking risk). The Playdate's display is described as firmly glued to housing (iFixit) and reportedly shows a static clock while docked/charging, potentially >2 hours. Whether adhesive placement matches Sharp's definition cannot be determined from teardown alone. Presented as plausibility context, not proof of violation.</p>
 
 <h3>Systemic Concern</h3>
 
