@@ -1,6 +1,6 @@
 # Playdate Screen Defect: Technical Analysis of "Impact Damage" Claim
 
-Panic denied a warranty claim on a Playdate with progressive screen failure, calling it "impact damage." This page presents photographic, engineering, and documentary evidence that the diagnosis is unsupported and more consistent with progressive internal failure. 150 sources.
+Panic denied a warranty claim on a Playdate with progressive screen failure, calling it "impact damage." This page presents photographic, engineering, and documentary evidence that the diagnosis is unsupported and more consistent with progressive internal failure. 152 sources.
 
 ## What This Is
 
